@@ -15,7 +15,7 @@
 ```
 C:\> pip install numpy pandas sklearn csv
 ```
-### Step 4 - Installing required packages
+### Step 4 - Running the Neural Network 
 * And now that you have installed the required packages, you can run the program via the command line:
 ```
 C:\> python Neural_Net_Single_Layer.py
