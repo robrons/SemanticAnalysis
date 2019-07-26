@@ -27,11 +27,12 @@ weight = pd.read_csv("My_Weight_Train.csv", header=None)
 
 # This step prints the dimensions of all the data that we imported. 
 
-print("Training Data Dimensions" + np.shape(x_train))
-print("Training Labels Dimensions" + np.shape(y_train))
-print("Testing Data Dimensions" + np.shape(x_val))
-print("Testing Labels Dimensions" + np.shape(y_val))
-print("Bayesian Weight Dimension" + np.shape(weight))
+
+print("Training Data Dimensions", np.shape(x_train))
+print("Training Labels Dimensions", np.shape(y_train))
+print("Testing Data Dimensions", np.shape(x_val))
+print("Testing Labels Dimensions", np.shape(y_val))
+print("Bayesian Weight Dimension", np.shape(weight))
 
 # This is the activation function that will be called during the feedforward step.
 
