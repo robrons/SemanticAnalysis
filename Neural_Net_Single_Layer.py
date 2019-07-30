@@ -67,7 +67,10 @@ def error(pred, real):
 class MyNN:
     def __init__(self, x, y):
         self.x = x
+
+        # Modify the learning rate here.
         self.lr = 0.3
+
         self.w1 = weight 
 
         # Random value initialization on the bias value. 
